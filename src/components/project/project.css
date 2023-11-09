@@ -1,0 +1,33 @@
+.projects-box{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-around;
+    
+}
+
+.project-conteiner{
+    margin-top: 20px;
+    
+    
+    
+}
+.project-conteiner_title{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f0f9fe;
+}
+
+.btn-show:hover{
+    color: #f5329d;
+    cursor: pointer;
+    
+}
+.photo-project{
+width: 350px;
+}
+
+.container-btn-filter{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
