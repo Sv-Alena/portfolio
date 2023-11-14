@@ -1,5 +1,9 @@
 body{
-  background-color: gray;
+  background: rgb(196,104,158);
+  background: linear-gradient(0deg, rgba(196,104,158,0.6222864145658263) 0%, rgba(125,124,123,1) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:100%;
 }
 
 nav{

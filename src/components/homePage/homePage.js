@@ -3,7 +3,7 @@ import "./home.css";
 export const HomePage = () => {
   return (
     <div className="home-page">
-      <h1 spanName="spanName">Привет меня зовут</h1>
+      <h1 className="spanName">Привет меня зовут</h1>
       <h3 class="spanName loader">
         <span spanName="m">Е</span>
         <span spanName="m">Л</span>
@@ -29,10 +29,11 @@ export const HomePage = () => {
           src="https://avatars.mds.yandex.net/get-ydo/1540809/2a0000017dc1fb807e92fec1e9e0691a8df9/diploma"
         />
         <div>
-           <p>Я создаю различные проекты и адаптирую их под мобильные устройства</p>
-        <h2>Мои проекты</h2>
+          <p>
+            Я создаю различные проекты и адаптирую их под мобильные устройства
+          </p>
+          <h2>Мои проекты</h2>
         </div>
-       
       </div>
     </div>
   );
