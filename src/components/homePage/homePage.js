@@ -3,24 +3,24 @@ import "./home.css";
 export const HomePage = () => {
   return (
     <div className="home-page">
-      <h1 class="spanName">Привет меня зовут</h1>
+      <h1 spanName="spanName">Привет меня зовут</h1>
       <h3 class="spanName loader">
-        <span class="m">Е</span>
-        <span class="m">Л</span>
-        <span class="m">Е</span>
-        <span class="m">Н</span>
-        <span class="m">А</span>
-        <span class="m">&nbsp;</span>
-        <span class="m">С</span>
-        <span class="m">В</span>
-        <span class="m">Я</span>
-        <span class="m">Т</span>
-        <span class="m">О</span>
-        <span class="m">Ш</span>
-        <span class="m">Е</span>
-        <span class="m">Н</span>
-        <span class="m">К</span>
-        <span class="m">О</span>
+        <span spanName="m">Е</span>
+        <span spanName="m">Л</span>
+        <span spanName="m">Е</span>
+        <span spanName="m">Н</span>
+        <span spanName="m">А</span>
+        <span spanName="m">&nbsp;</span>
+        <span spanName="m">С</span>
+        <span spanName="m">В</span>
+        <span spanName="m">Я</span>
+        <span spanName="m">Т</span>
+        <span spanName="m">О</span>
+        <span spanName="m">Ш</span>
+        <span spanName="m">Е</span>
+        <span spanName="m">Н</span>
+        <span spanName="m">К</span>
+        <span spanName="m">О</span>
       </h3>
 
       <div className="home-page_final-block">
