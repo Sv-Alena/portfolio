@@ -1,0 +1,28 @@
+.container-aboutPage{
+    height: 100Vh;
+    font-family: "ROBOTO", sans-serif;
+}
+
+.textAbout{
+    width: 70%;
+    text-align: center;
+    
+}
+.textAbout p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    
+}
+.img-sertificates{
+width: 400px;
+margin: 20px;
+}
+
+
+.skills{
+    margin: 5px;
+    width: 75px;
+    height: 35px;
+}

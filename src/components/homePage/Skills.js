@@ -7,14 +7,14 @@ export const Skills = () => {
         <img
           src="https://avatars.mds.yandex.net/i?id=645086ab822effb9480a9a34d26a4b3554c4925d-10814598-images-thumbs&n=13"
           alt=""
-          width="150"
+          width="70"
           className='skills'
         />
 
         <img
           src="https://media.proglib.io/wp-uploads/2017/12/maxresdefault.jpg"
           alt=""
-          width="110"
+          width="50"
           className='skills'
         />
 

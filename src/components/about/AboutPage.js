@@ -1,19 +1,21 @@
 import { Sertificats } from "./MySertificat";
-import { Skills } from "./Skills";
+import "./aboutPage.css";
 
 export const AboutPage = () => {
   return (
-    <div>
+    <div className="container-aboutPage">
       <div className="container-About-Me">
-        <p class="textAbout">
-          Я <span class="green">Front-End разработчик</span> , живу в России.
-          Люблю создавать полезные, функциональные{" "}
-          <span class="red">web-сайты и приложения</span> . Приятно осознавать,
-          что мои работы приносят пользу и помогают людям.
-        </p>
+        <div className="textAbout">
+          <p>
+            Моя новая профессия началась с обучения в школе програмирования
+            CanSheCode Inc. от HTML до Node и продолжается по сегодняшний день.
+          </p>
+        </div>
+        <div>
+          <Sertificats/>
+        </div>
       </div>
-      <Sertificats/>
-      <Skills/>
+
       <div className="container-contacts"></div>
     </div>
   );

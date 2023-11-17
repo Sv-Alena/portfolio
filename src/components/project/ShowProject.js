@@ -1,14 +1,19 @@
-export const ShowProject = ({ showImage }) => {
+//import { Link } from "react-router-dom";
+export const ShowProject = ({ showImage }) => { 
+
+
   return (
+    
     <div className= "projects-box" >
       {showImage.map((card) => {
-        const { title, id, photo } = card;
+        const { title, id, photo, source} = card;
         return (
           <div  className="" key={id}>
             <img src={photo} alt="projectPhoto" className="photo-project" />
             <div className="project-conteiner_title ">
-            <p className="project-conteiner_title">{title}</p>
-            <p className=" ">show</p> 
+            <p className="project-title">{title}</p>
+            {/* <Link to="/{source}" className="linkLogo">Show</Link> */}
+            {/* <p className="btn-show" src={source}>show</p>  */}
             </div>
           </div>
         );

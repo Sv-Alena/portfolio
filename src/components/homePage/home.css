@@ -1,9 +1,10 @@
 .home-page{
 background-image: url(https://phonoteka.org/uploads/posts/2022-01/1642945682_76-phonoteka-org-p-sero-belii-fon-80.jpg);
-height: 400px;
+height: 450px;
 padding: 30px;
 margin: 40px;
 font-family: "ROBOTO", sans-serif;
+
 }
 
 h1.spanName{
@@ -55,8 +56,8 @@ h3.spanName{
 .home-page_final-block{
     display: flex;
     justify-content: space-evenly;
-    margin-top: 60px;
+    margin-top: 50px;
 }
 .home-photo{
-    width: 650px;
+    width: 550px;
 }

@@ -9,12 +9,14 @@ body{
 nav{
   display: flex;
   justify-content: right;
+  margin-top: 20px;
 }
 .linkLogo{
   margin-right: auto;
   text-decoration: none;
   color: white;
   font-size: 25px;
+  padding-left: 30px;
 }
 
 .link{
