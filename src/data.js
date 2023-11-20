@@ -90,6 +90,13 @@
         category:[ 'js', 'all'],
         id: 13
     },
+    { 
+        photo: "/photo-react/game-store.jpg",
+        title: 'Магазин видео игр', 
+        source: 'https://game-store-lac.vercel.app/',
+        category:[ 'react', 'all'],
+        id: 14
+    }
 ]
 
 export default data

@@ -30,10 +30,15 @@
   height: 30px;
 }
 
-.project-conteiner_title p {
+/* .project-conteiner_title p {
+  
+} */
+.project-title{
   margin-top: 3px;
 }
-
+.btn-show{
+  text-decoration: none;
+}
 .btn-show:hover {
   color: #f5329d;
   cursor: pointer;

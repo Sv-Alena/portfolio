@@ -12,7 +12,7 @@ export const AboutPage = () => {
           </p>
         </div>
         <div>
-          <Sertificats/>
+          <Sertificats />
         </div>
       </div>
 

@@ -2,27 +2,14 @@ import "./home.css";
 import { Skills } from "./Skills";
 
 export const HomePage = () => {
+
+
   return (
     <div className="home-page">
-      <h1 className="spanName">Привет меня зовут</h1>
-      <h3 class="spanName loader">
-        <span spanName="m">Е</span>
-        <span spanName="m">Л</span>
-        <span spanName="m">Е</span>
-        <span spanName="m">Н</span>
-        <span spanName="m">А</span>
-        <span spanName="m">&nbsp;</span>
-        <span spanName="m">С</span>
-        <span spanName="m">В</span>
-        <span spanName="m">Я</span>
-        <span spanName="m">Т</span>
-        <span spanName="m">О</span>
-        <span spanName="m">Ш</span>
-        <span spanName="m">Е</span>
-        <span spanName="m">Н</span>
-        <span spanName="m">К</span>
-        <span spanName="m">О</span>
-      </h3>
+      <p  className="box">Привет! меня зовут</p>
+      <h3 class="animate-charcter"> ЕЛЕНА СВЯТОШЕНКО</h3>
+
+     
 
       <div className="home-page_final-block">
         <img
@@ -36,7 +23,7 @@ export const HomePage = () => {
           <p>
           Я <span style={{color: '#f5329d'}}>Front-End разработчик</span>.
           Мне нравится создавать полезные, функциональные 
-          <span style={{color: '#588903'}}> web</span>-сайты и приложения. 
+          <span style={{color: '#153757'}}> web</span>-сайты и приложения. 
           <p style={{letterSpacing: '6px', fontSize: '16px'}}>Владею навыками:</p>
           
         </p>

@@ -1,4 +1,4 @@
-//import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 export const ShowProject = ({ showImage }) => { 
 
 
@@ -12,7 +12,7 @@ export const ShowProject = ({ showImage }) => {
             <img src={photo} alt="projectPhoto" className="photo-project" />
             <div className="project-conteiner_title ">
             <p className="project-title">{title}</p>
-            {/* <Link to="/{source}" className="linkLogo">Show</Link> */}
+            <Link to={`${source}`}target="_blank" className="btn-show">Show</Link>
             {/* <p className="btn-show" src={source}>show</p>  */}
             </div>
           </div>
